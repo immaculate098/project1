@@ -1,0 +1,251 @@
+/* body of the home page */
+.homepage {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url(./images/background.png);
+  background-size: cover;
+  color: rgb(0, 0, 0, 1);
+}
+/* logo for my company */
+
+.logo {
+  width: 100px;
+  height: 100px;
+  border: 2px;
+  padding-left: 5px;
+}
+/* the home page navigation bar and the image */
+.nav {
+  color: black;
+  background-color: grey;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin: top 0;
+  display: flex;
+  justify-content: space-between;
+}
+/* the navigation items */
+.link1 > a {
+  margin-right: 20px;
+
+  padding: 20px;
+  color: aliceblue;
+  text-transform: uppercase;
+}
+/* the "hr" line */
+.breakline {
+  color: blue;
+
+  /* CEO image */
+}
+.image1 {
+  width: 100px;
+  border-radius: 80px;
+  float: left;
+  margin-right: 20px;
+  height: 100px;
+}
+
+/* click me button */
+.button:hover {
+  background-color: dodgerblue;
+  border-radius: 5px;
+  padding: 10px;
+  color: gray;
+}
+/* for both button and click statement */
+.bothclick {
+  display: flex;
+  margin-right: 10px;
+}
+.paragraph {
+  margin-bottom: 20px;
+ 
+}
+ /* missy picture2 and words along */
+.image2 {
+  width: 100px;
+  border-radius: 80px;
+  float: left;
+  margin-right: 20px;
+  height: 100px;
+}
+/* content in colums */
+#containerr {
+  display: flex;
+  flex-direction: row;
+  margin-right: 30%;
+  width: 80%;
+  column-gap: 100px;
+}
+
+/* for each content in colums */
+.content,
+.content4,
+.content3 {
+  background-color: rgba(222, 184, 135, 0.154);
+  padding: 15px;
+}
+
+/* alignment for the  third images and content that follows */
+.perfect {
+  display: flex;
+  flex-direction: row;
+  margin-right: 40%;
+  width: 100%;
+  line-height: 30px;
+  column-gap: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url(./images/background.png);
+  background-size: cover;
+}
+/* third first image content */
+.current li {
+  padding: 30px;
+  border-radius: 50px;
+  height: 300px;
+  background-color: rgba(159, 241, 226, 0.172);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* fourth second image content */
+.future li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding: 30px;
+  border-radius: 50px;
+  height: 300px;
+  background-color: rgba(153, 231, 217, 0.115);
+}
+/* for the images in the perfect class */
+.row3 {
+  width: 100px;
+  border-radius: 20px;
+  height: 100px;
+}
+
+.row2 {
+  width: 100px;
+  border-radius: 20px;
+  height: 100px;
+}
+
+/* form section starting here */
+.link2 > a {
+  margin-right: 20px;
+  padding: 20px;
+  color: aliceblue;
+  text-transform: uppercase;
+}
+
+.nav1 {
+  color: black;
+  background-color: rgb(68, 106, 119);
+  padding: 20px;
+  margin-bottom: 20px;
+  margin: top 0;
+  display: flex;
+  justify-content: space-between;
+}
+.form-image {
+  width: 100px;
+  border-radius: 80px;
+  float: left;
+  margin-right: 20px;
+  height: 100px;
+}
+
+.final-form {
+  display: flex;
+  flex-direction: row;
+  margin-right: 40%;
+  width: 100%;
+  line-height: 30px;
+  column-gap: 80px;
+  padding-top: 10px;
+}
+.form1 {
+  background-color: gray;
+  padding: 40px;
+  padding-top: 20px;
+  border-radius: 30px;
+}
+.wholeform {
+  background-color: rgb(241, 247, 249);
+}
+
+/* for the about page */
+.contact {
+  color: darkmagenta;
+  display: flex;
+  flex-direction: row;
+  margin-right: 40%;
+  width: 100%;
+  line-height: 30px;
+  column-gap: 80px;
+  padding-top: 10px;
+}
+
+.opt {
+  color: white;
+  background-color: rgb(63, 34, 61);
+  padding: 20px;
+  margin-bottom: 20px;
+  margin: top 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link3 > a {
+  margin-right: 20px;
+  padding: 20px;
+  color: aliceblue;
+  text-transform: uppercase;
+}
+
+.overview {
+  color: rgb(122, 9, 122);
+  display: flex;
+  flex-direction: row;
+  margin-right: 40%;
+  width: 100%;
+  line-height: 30px;
+  column-gap: 80px;
+  padding-top: 10px;
+}
+.hr {
+  width: 100%;
+  height: 3px;
+  background-color: rgb(37, 15, 30);
+  padding: 2px;
+}
+/* is the navigation bar of the blog */
+.link4 > a{
+    margin-right: 20px;
+    padding: 20px;
+    color: rgb(10, 10, 10);
+    text-transform: uppercase;
+    text-align:right;
+  }
+  .blog{color: white;
+    background-color: rgb(18, 16, 17);
+    padding: 20px;
+    margin-bottom: 20px;
+    margin: top 0;
+    display: flex;
+    justify-content: space-between;}
+    /* for the background image in the body of the blog */
+.blog1{background-image: url(./images/interest.jpg);
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.8),
+        rgba(255, 255, 255, 0.8)
+      ),
+      url(./images/wallpaper.png);
+    background-size: cover;}
